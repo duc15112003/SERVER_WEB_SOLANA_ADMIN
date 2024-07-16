@@ -10,7 +10,6 @@ public class RoleMapping {
     @ManyToOne
     @JoinColumn(name = "username")
     private Account account;
-
     @Id
     @ManyToOne
     @JoinColumn(name = "id_role")

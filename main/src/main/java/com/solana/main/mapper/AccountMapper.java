@@ -1,4 +1,8 @@
 package com.solana.main.mapper;
 
-public class AccountMapper {
+import org.mapstruct.Mapper;
+
+@Mapper
+public interface AccountMapper{
+
 }

@@ -6,7 +6,6 @@ import jakarta.persistence.*;
 public class Account {
     @Id
     private String username;
-
     @Column(nullable = false)
     private String password;
 
