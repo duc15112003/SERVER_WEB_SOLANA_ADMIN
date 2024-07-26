@@ -13,4 +13,8 @@ public class AccountDTO {
     String password;
     String Staff_id;
     String user_id;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> origin/dev-duc
