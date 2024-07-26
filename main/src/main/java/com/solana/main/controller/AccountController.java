@@ -46,7 +46,7 @@ public class AccountController {
     }
 
     @DeleteMapping("/{id}")
-    public ResponseEntity<Void> deleteCustomerDTO(@PathVariable Long id) {
+    public ResponseEntity<Void> deleteAccountDTO(@PathVariable Long id) {
         if (accountServiceImpl.getAccountDTOById(id).isPresent()) {
             accountServiceImpl.deleteAccount(id);
             return ResponseEntity.noContent().build();

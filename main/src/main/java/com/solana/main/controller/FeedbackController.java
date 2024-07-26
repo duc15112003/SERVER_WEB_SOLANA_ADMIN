@@ -51,7 +51,7 @@ public class FeedbackController {
     }
 
     @DeleteMapping("/{id}")
-    public ResponseEntity<Void> deleteCustomerDTO(@PathVariable Long id) {
+    public ResponseEntity<Void> deleteIdeaDTO(@PathVariable Long id) {
         if (feedbackServiceImpl.getFeedbackDTOById(id).isPresent()) {
             feedbackServiceImpl.deleteFeedback(id);
             return ResponseEntity.noContent().build();
